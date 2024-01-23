@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Friends
+    </ion-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col><ion-popover trigger="click-trigger" triggerAction="clickius">
+        <ng-template>
+        <ion-content class="ion-padding">username:<ion-input label="" placeholder="Enter username"></ion-input></ion-content>
+        <ion-content class="ion-padding">Goal:<ion-input label="" placeholder="Enter Goal"></ion-input></ion-content>
+      </ng-template>
+</ion-popover></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        
+        <ion-col></ion-col>
+
+      </ion-row>
+    </ion-grid>
+    <ion-button id="click-trigger"><ion-icon name="person-outline"></ion-icon></ion-button>
+
+  </ion-toolbar>
+</ion-header>
+<ion-item>
+  <ion-label>
+    <ion-col>    <h1>Friend1</h1> </ion-col>
+
+    <p>Goal: V-taper</p>
+  </ion-label>
+</ion-item>
+<ion-item>
+  <ion-label>
+    <h1>Friend2</h1>
+    <p>Goal: sam sulek</p>
+  </ion-label>
+</ion-item>
+<ion-item>
+  <ion-label>
+    <h1>Friend3</h1>
+    <p>Goal: legs</p>
+  </ion-label>
+</ion-item>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Friends</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+</ion-content>

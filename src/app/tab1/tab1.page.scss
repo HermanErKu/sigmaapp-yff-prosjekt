@@ -1,0 +1,20 @@
+/* Set variables for all modes */
+:root {
+    /* Set the background of the entire app */
+    --ion-background-color: #ff3700;
+
+    /* Set the font family of the entire app */
+    --ion-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
+
+ion-col {
+    text-align: center;
+    border: solid 2px #15b20d;
+    color: #15b20d;
+    margin: 8px;
+}
+
+ion-row {
+    height: 27vh;
+}
